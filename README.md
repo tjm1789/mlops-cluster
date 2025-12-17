@@ -5,6 +5,9 @@ Its purpose is to demonstrate end-to-end MLOps and platform engineering practice
 
 This is a learning and reference platform, not a production service with external SLAs.
 
+In addition to serving as a general MLOps reference platform, the cluster is also used to host practical, self-directed AI workloads that exercise the same deployment, observability, and lifecycle patterns.
+The primary reference workload is an AI voice assistant (LLM inference + TTS/STT) running entirely on local infrastructure.
+
 ---
 
 ## Architecture Overview
