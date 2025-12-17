@@ -1,4 +1,4 @@
-# MLOps Homelab
+# MLOps Cluster
 
 This repository defines a personal MLOps homelab built on a Raspberry Pi Kubernetes cluster.
 Its purpose is to demonstrate end-to-end MLOps and platform engineering practices: reproducible infrastructure, GitOps-driven deployment, observability, and the full machine-learning lifecycle from training to serving.
