@@ -12,9 +12,23 @@ __pycache__/
 *.retry
 
 # Kubernetes / secrets
+.kube/
+kubeconfig
+*.kubeconfig
 *.key
 *.pem
 *.crt
 secrets.yaml
 secrets/
+.env
+.env.*
+age.key
+*.agekey
+vault-pass.txt
+id_rsa
+id_ed25519
+id_ecdsa
 
+# Local inventories
+bootstrap/inventory.ini
+bootstrap/inventory.local.ini
