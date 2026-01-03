@@ -1,0 +1,22 @@
+#cloud-config
+
+hostname: __HOSTNAME__
+
+ssh_pwauth: false
+disable_root: true
+
+users:
+  - default
+  - name: tom
+    groups: [adm, sudo]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - __SSH_PUBLIC_KEY__
+
+packages:
+  - openssh-server
+  - avahi-daemon
+
+package_update: false
+package_upgrade: false
